@@ -2,4 +2,4 @@ build:
 	docker build -t go-example .
 
 run:
-	docker run -p 8080:8081 -d --rm go-example
+	docker run -p 8080:8080 -d --rm go-example
